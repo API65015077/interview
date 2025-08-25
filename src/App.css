@@ -1,0 +1,15 @@
+
+table {
+  margin: 20px 20px 20px 20px ;
+  width: 95vw;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+td {
+  padding: 10px;
+}

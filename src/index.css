@@ -1,0 +1,79 @@
+.topoftable {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 10px;
+  margin: 15px
+}
+
+.cancel-button {
+    background-color: #fcfcfc;
+    color: #000000;
+    border-radius: 8px;
+    border: 1px solid #000000;
+
+}
+
+.cancel-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+button {
+  width: fit-content;
+  background-color: #3471e4;
+  justify-self: right;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+  font-size: 18px;
+  
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  cursor: pointer;
+}
+
+.topoftable h1 {
+  margin: 0;
+  justify-self: left;
+}
+
+.topoftable input {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  
+}
+
+.createpage {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 10px;
+  margin: 15px;
+}
+
+.createpage form {
+  display: grid;
+  grid-template-rows: max-content;
+  gap: 10px;
+  margin: 15px;
+  width: 50%;
+}
+
+.createpage input, .createpage textarea {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.createpage textarea {
+  min-height: 100px;
+}
+
+.createpage div {
+  display: flex;
+  justify-content: space-between;
+}
